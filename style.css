@@ -1,0 +1,26 @@
+body{
+  font-size: 20px;
+}
+.heading{
+    width: 100%;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin: 0;
+}
+.btn-success:hover{
+    background-color: yellowgreen;
+}
+canvas{
+    animation-name:ColoredShadow;
+    animation-duration: 4s;
+    animation-iteration-count:infinite ;
+    
+}
+@keyframes ColoredShadow{
+    from{
+        box-shadow: 1px 1px 38px blue;
+    }
+    to{
+        box-shadow: 1px 1px 38px  white  ;
+    }
+}
